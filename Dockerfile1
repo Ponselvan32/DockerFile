@@ -30,7 +30,7 @@ RUN  mv jdk* ${JAVA_HOME}
 
 ENV  TOMCAT_MAJOR 8 
 
-ENV  TOMCAT_VERSION 8.5.28
+ENV  TOMCAT_VERSION 8.5.29
 
 RUN  curl -LO http://www-eu.apache.org/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz 
 
